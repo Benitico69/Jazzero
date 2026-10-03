@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>Jazzero</title>
+  <!-- Icono de Jazzero: el gato en la estrella naranja (basado en el boceto 3).
+       Fondo a sangre para que sirva como icono "maskable"; la estrella cabe en la zona segura (80 %). -->
+  <rect width="512" height="512" fill="#f3e8d6"/>
+  <!-- estrella de 28 picos finos y regulares -->
+  <polygon fill="#dd5a12" points="256.0,52.0 276.4,75.1 301.4,57.1 316.1,84.2 344.5,72.2 352.8,101.9 383.2,96.5 384.7,127.3 415.5,128.8 410.1,159.2 439.8,167.5 427.8,195.9 454.9,210.6 436.9,235.6 460.0,256.0 436.9,276.4 454.9,301.4 427.8,316.1 439.8,344.5 410.1,352.8 415.5,383.2 384.7,384.7 383.2,415.5 352.8,410.1 344.5,439.8 316.1,427.8 301.4,454.9 276.4,436.9 256.0,460.0 235.6,436.9 210.6,454.9 195.9,427.8 167.5,439.8 159.2,410.1 128.8,415.5 127.3,384.7 96.5,383.2 101.9,352.8 72.2,344.5 84.2,316.1 57.1,301.4 75.1,276.4 52.0,256.0 75.1,235.6 57.1,210.6 84.2,195.9 72.2,167.5 101.9,159.2 96.5,128.8 127.3,127.3 128.8,96.5 159.2,101.9 167.5,72.2 195.9,84.2 210.6,57.1 235.6,75.1"/>
+  <!-- el gato: un poco más pequeño que la estrella para que se vea el anillo naranja -->
+  <g transform="translate(256 262) scale(0.84) translate(-256 -272)">
+  <!-- cabeza -->
+  <g fill="#f3e8d6" stroke="#f3e8d6" stroke-width="10" stroke-linejoin="round">
+    <polygon points="146,262 160,138 236,198"/>
+    <polygon points="366,262 352,138 276,198"/>
+    <ellipse cx="256" cy="292" rx="146" ry="112"/>
+  </g>
+  <!-- ojos, nariz y boca -->
+  <g fill="#6b2e1f">
+    <circle cx="203" cy="285" r="31"/>
+    <circle cx="309" cy="285" r="31"/>
+    <path d="M241 318 Q256 310 271 318 Q264 333 256 336 Q248 333 241 318Z"/>
+  </g>
+  <path d="M228 347 Q242 362 256 346 Q270 362 284 347" fill="none" stroke="#6b2e1f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- bigotes gruesos que salen de la cara hasta la estrella -->
+  <g stroke="#6b2e1f" stroke-width="8" stroke-linecap="round" fill="none">
+    <path d="M178 330 Q132 324 92 330"/>
+    <path d="M180 352 Q138 360 100 380"/>
+    <path d="M334 330 Q380 324 420 330"/>
+    <path d="M332 352 Q374 360 412 380"/>
+  </g>
+  </g>
+</svg>
